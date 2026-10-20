@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 34px;
+}
+
+.header__logo {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 544px) {
+  .header {
+    padding-top: 20px;
+  }
+
+  .header__logo {
+    font-size: 10px;
+  }
+}

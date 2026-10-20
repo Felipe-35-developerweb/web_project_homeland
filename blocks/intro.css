@@ -1,0 +1,71 @@
+.intro {
+  max-width: 984px;
+  margin: 92px auto 0;
+}
+
+.intro__title {
+  max-width: 830px;
+  margin: 0;
+  font-size: 54px;
+  line-height: 58px;
+  font-weight: 900;
+}
+
+.intro__quote {
+  max-width: 738px;
+  margin: 40px 0 0;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.intro__quote-author {
+  margin: 10px 0 0;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.intro__text {
+  max-width: 722px;
+  margin: 32px 0 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 720px;
+    margin-top: 88px;
+  }
+
+  .intro__title {
+    max-width: 720px;
+    font-size: 45px;
+    line-height: 49px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .intro {
+    margin: 64px 16px 0;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .intro__quote {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .intro__quote-author {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .intro__text {
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
